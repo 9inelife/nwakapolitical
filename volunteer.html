@@ -170,7 +170,7 @@
 								<form class="contact_form" action="#">
 									<input class="name" type="text" name="name" placeholder="Name" style="border: 1px solid darkred; background-color: whitesmoke;">
 									<input class="email" type="text" name="email" placeholder="E-Mail"  style="border: 1px solid darkred; background-color: whitesmoke;">
-									<select name="cars" id="cars"  style="border: 1px solid darkred; background-color: whitesmoke;">
+									<select name="cars" id="cars"  style="border: 1px solid darkred; background-color: whitesmoke;" onChange=" getselectval();">
 										<option value="volvo">Volvo</option>
 										<option value="saab">Saab</option>
 										<option value="mercedes">Mercedes</option>
@@ -328,6 +328,15 @@
 //add eventlistener
 form.addEventListener('submit', sendMsg);
 </script>
+		<script>
+function getselectval() {
+	var selectval = document.getElementById("cars").value;
+	console.log( selectval);
+}
+
+
+</script>
+
 	<!-- end footer section -->
 
 
