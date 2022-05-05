@@ -192,6 +192,22 @@ input[type=submit][disabled]:focus {
   border: none;
 }
 
+select{
+  font-size: 1em;
+  display: inline-block;
+  /* padding: 10px 30px; */
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  background: #f7f7f7;
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  border: 1px solid #d1d1d1;
+  border-radius: 2rem;
+  color: #686868;
+  padding: 0.625em 0.4375em;
+  width: 100%;
+}
+
 input[type=button]:hover,
 input[type=button]:focus,
 input[type=reset]:hover,
@@ -366,22 +382,6 @@ blockquote:after,
   padding: 35px 15px;
   display: inline-block;
 }
-select{
-  font-size: 1em;
-  display: inline-block;
-  /* padding: 10px 30px; */
-  text-transform: uppercase;
-  font-weight: 700;
-  text-align: center;
-  background: #f7f7f7;
-  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
-  border: 1px solid #d1d1d1;
-  border-radius: 2rem;
-  color: #686868;
-  padding: 0.625em 0.4375em;
-  width: 100%;
-}
-
 .navbar .nav li a:hover {
   background-color: transparent;
 }
@@ -392,11 +392,11 @@ select{
   background-color: transparent;
 }
 .navbar .nav li.active > a, .navbar .nav li:hover > a {
-  color: #b40700 !important;
+  color: #4DBBE2 !important;
 }
 @media (max-width: 991px) {
   .navbar .nav li.active > a, .navbar .nav li:hover > a {
-    background-color: #b40700;
+    background-color: #4DBBE2;
     color: #fff !important;
   }
 }
@@ -412,7 +412,7 @@ select{
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    border-top: 5px solid #b40700;
+    border-top: 5px solid #4DBBE2;
     transform: scaleY(0);
     transform-origin: 0 0 0;
     -webkit-transition: 0.3s;
@@ -425,7 +425,7 @@ select{
     position: absolute;
     border-style: solid;
     border-width: 0 10px 10px;
-    border-color: #b40700 transparent;
+    border-color: #4DBBE2 transparent;
     display: block;
     width: 0;
     z-index: 1;
@@ -452,7 +452,7 @@ select{
     display: none;
   }
   .navbar .nav li .submenu li.active-submenu > a, .navbar .nav li .submenu li:hover > a {
-    background-color: #b40700;
+    background-color: #4DBBE2;
     color: #fff !important;
   }
   .navbar .nav li .submenu li:last-child a {
@@ -484,9 +484,9 @@ select{
 }
 
 .navbar-toggler {
-  color: #b40700;
+  color: #4DBBE2;
   outline: none !important;
-  border: 1px solid #b40700;
+  border: 1px solid #4DBBE2;
   font-size: 28px;
 }
 
@@ -578,7 +578,7 @@ select{
   .navbar-nav {
     margin-left: -15px;
     margin-right: -15px;
-    background-color: #035833;
+    background-color: #064484;
     float: none !important;
     width: 100%;
     padding-bottom: 100px;
@@ -633,7 +633,7 @@ select{
 }
 .header .header-top {
   padding: 6px 25px;
-  background-color: #035833;
+  background-color: #064484;
   overflow: hidden;
 }
 @media (max-width: 400px) {
@@ -681,10 +681,10 @@ select{
   color: #717171;
 }
 .header .transparent-menu .navbar-nav li.active a {
-  color: #b40700;
+  color: #4DBBE2;
 }
 .header .transparent-menu .navbar-nav li:hover a {
-  color: #b40700;
+  color: #4DBBE2;
 }
 .header.fixed-top-menu {
   position: fixed;
@@ -692,13 +692,13 @@ select{
   left: 0;
   right: 0;
   z-index: 9;
-  background-color: #035833;
+  background-color: #064484;
 }
 .header.fixed-top-menu .transparent-menu {
-  background-color: #035833;
+  background-color: #064484;
 }
 .header.fixed-top-menu .navbar {
-  background-color: #035833;
+  background-color: #064484;
 }
 .header.fixed-top-menu .header-top {
   display: none;
@@ -708,10 +708,10 @@ select{
 }
 .header.fixed-top-menu .donate {
   background-color: #fff;
-  color: #b40700;
+  color: #4DBBE2;
 }
 .header .codexcoder-navbar .logo {
-  color:#b40700;
+  color:#4DBBE2;
   padding: 22px 0;
 }
 .header.header-style2 {
@@ -809,7 +809,7 @@ select{
 .about-bio {
   overflow: hidden;
   padding: 40px 20px;
-  background-color: #b40700;
+  background-color: #4DBBE2;
 }
 @media (max-width: 640px) {
   .about-bio {
@@ -904,7 +904,7 @@ select{
   height: 40px;
   margin-left: -20px;
   margin-top: -20px;
-  background-color: #b40700;
+  background-color: #4DBBE2;
   text-align: center;
   color: #fff;
   line-height: 40px;
@@ -917,7 +917,7 @@ select{
   transition: 0.3s;
 }
 .about-media .media-thumb .play:hover {
-  background-color: #b40700;
+  background-color: #4DBBE2;
 }
 
 .election-campaign-section {
@@ -975,7 +975,7 @@ select{
   text-align: center;
 }
 .newsletter-section.style2 .section-overlay {
-  background-color:#b40700;
+  background-color:#4DBBE2;
 }
 .newsletter-section.style2 .newsletter {
   max-width: 720px;
@@ -1003,12 +1003,12 @@ select{
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
-  background-color: #035833;
+  background-color: #064484;
   color: #fff;
 }
 
 .footer-section .footer-top {
-  background-color: #035833;
+  background-color:#064484;
 }
 .footer-section .footer-top .widget h5 {
   color: #fff;
@@ -1067,7 +1067,7 @@ select{
   margin: 0;
 }
 .donate-details-area .donate-details-header p span {
-  color: #b40700;
+  color: #4DBBE2;
   font-weight: 900;
   font-style: italic;
 }
@@ -1076,7 +1076,7 @@ select{
   margin-bottom: 20px;
 }
 .donate-details-area .ddc-content-wrapper .section-head h2 {
-  color: #b40700;
+  color: #4DBBE2;
   font-size: 28px;
   text-align: center;
 }
@@ -1120,10 +1120,10 @@ select{
   border-radius: 100%;
 }
 .donate-amount .select-amount {
-  color: #b40700;
+  color: #4DBBE2;
 }
 .donate-amount .select-amount:after {
-  border-color: #b40700;
+  border-color: #4DBBE2;
   content: "";
   font: normal normal normal 6px/1 FontAwesome;
   text-align: center;
@@ -1195,7 +1195,7 @@ select{
 }
 .payment-info .submit {
   padding: 12px 30px;
-  background-color: #b40700;
+  background-color: #4DBBE2;
   color: #fff;
   text-transform: uppercase;
   display: inline-block;
@@ -1448,7 +1448,7 @@ select{
   background-color: #f3f3f3;
 }
 .comment-response form input[type=submit] {
-  background-color: #b40700;
+  background-color: #4DBBE2;
   color: #fff;
   margin-top: 20px;
   padding: 12px 35px;
@@ -1479,7 +1479,7 @@ select{
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-color: #b40700;
+  background-color: #4DBBE2;
   color: #fff;
   text-align: center;
   font-size: 36px;
@@ -1494,7 +1494,7 @@ select{
 }
 .mission-section .mission-content .play:hover {
   background-color: #fff;
-  color: #b40700;
+  color: #4DBBE2;
 }
 
 .campaign-schedule-lsit-area .campaign-schedule-list {
@@ -1537,12 +1537,12 @@ select{
   color: #332929;
 }
 .campaign-schedule-lsit-area .button-group .button.is-checked {
-  background-color:#b40700;
+  background-color:#4DBBE2;
   color: #fff;
   outline: none;
 }
 .campaign-schedule-lsit-area .button-group .button:hover {
-  background-color: #b40700;
+  background-color: #4DBBE2;
   color: #fff;
 }
 .campaign-schedule-lsit-area .button-group .button:active {
@@ -1582,7 +1582,7 @@ select{
   left: -40px;
   top: -10%;
   font-family: "fontawesome";
-  color: #b40700;
+  color: #4DBBE2;
 }
 .polician-qoute-section .section-overlay .qoute h4:before {
   content: "";
@@ -1590,7 +1590,7 @@ select{
   right: -40px;
   top: -10%;
   font-family: "fontawesome";
-  color:#b40700;
+  color:#4DBBE2;
 }
 .polician-qoute-section .section-overlay .qoute .name {
   color: #fff;
@@ -1621,7 +1621,7 @@ select{
   background-image: url(../../assets/images/homepage2/qoute/02.jpg);
 }
 .polician-qoute-section.style2 .section-overlay {
-  background-color: #046912;
+  background-color: #064484;
 }
 
 .gallery-section .gallery h4 {
@@ -1685,7 +1685,7 @@ select{
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-color: #b40700;
+  background-color: #4DBBE2;
   color: #fff;
   text-align: center;
   font-size: 36px;
@@ -1719,7 +1719,7 @@ select{
   background-image: url(../../assets/images/homepage4/achievement/bg.jpg);
 }
 .achievement-section.style2 .section-overlay {
-  background-color: #035833;
+  background-color: #064484;
 }
 @media (max-width: 991px) {
   .achievement-section .section-overlay .achievement .achievement-item {
@@ -1749,7 +1749,7 @@ select{
   width: 40px;
   margin-left: -20px;
   height: 4px;
-  background-color: #b40700
+  background-color: #4DBBE2
   ;
 }
 .achievement-section .section-overlay .achievement .achievement-item-inner .text {
@@ -1761,7 +1761,7 @@ select{
   padding: 60px 0;
 }
 .achievement-section.style3 .section-overlay {
-  background-color: #b40700
+  background-color: #4DBBE2
   ;
 }
 .achievement-section.style3 .section-overlay .achievement .achievement-item {
@@ -1791,7 +1791,7 @@ select{
 }
 .neta-info-section .neta-info-item .neta-info-item-inner {
   margin: 7px;
-  background-color: #035833;
+  background-color: #064484;
   padding: 30px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1812,7 +1812,7 @@ select{
   padding: 8px 30px;
 }
 .neta-info-section .neta-info-item:hover h5 {
-  color:#b40700;
+  color:#4DBBE2;
 }
 .neta-info-section.style2 {
   padding-top: 0;
@@ -1842,8 +1842,8 @@ select{
   color: #999;
 }
 .neta-info-section.style2 .neta-info-item-inner .custom-btn {
-  background-color: #035833;
-  border-color: #035833;
+  background-color: #064484;
+  border-color: #064484;
   color: #fff;
 }
 .neta-info-section.style2 .neta-info-item-inner .custom-btn:hover {
@@ -1852,7 +1852,7 @@ select{
   color: #332929;
 }
 .neta-info-section.style2 .neta-info-item-inner:hover {
-  background-color: #b40700;
+  background-color: #4DBBE2;
 }
 .neta-info-section.style2 .neta-info-item-inner:hover h5, .neta-info-section.style2 .neta-info-item-inner:hover p {
   color: #fff;
@@ -1877,7 +1877,7 @@ select{
   overflow: hidden;
 }
 .about-politician-section .politician-container .politician-info .politician-content .custom-btn:hover {
-  background-color: #b40700;
+  background-color: #4DBBE2;
 }
 .about-politician-section .politician-container .politician-info .politician-thumb {
   margin-bottom: 15px;
@@ -1972,7 +1972,7 @@ select{
   margin-bottom: 0;
 }
 .biography-section .biography .biography-item:hover .bio-year {
-  background-color: #b40700;
+  background-color: #4DBBE2;
   color: #fff;
 }
 .biography-section .biography .biography-item .bio-date {
@@ -2030,7 +2030,7 @@ select{
   font-size: 36px;
   position: absolute;
   background-color: #fff;
-  color: #b40700;
+  color: #4DBBE2;
   transform: rotate(45deg);
   left: 30%;
   top: 0;
@@ -2063,7 +2063,7 @@ select{
 }
 .ourstatement .ourstatement-container .statement-item a {
   display: inline-block;
-  background-color: #b40700;
+  background-color: #4DBBE2;
   color: #fff;
   padding: 7px 30px;
   top: -18px;
@@ -2097,13 +2097,13 @@ select{
   font-size: 26px;
 }
 .ourstatement .swiper-controller:hover {
-  background-color: #b40700;
+  background-color: #4DBBE2;
 }
 .ourstatement .swiper-controller:focus {
-  background-color: #b40700;
+  background-color: #4DBBE2;
 }
 .ourstatement .swiper-controller:active {
-  background-color: #b40700;
+  background-color: #4DBBE2;
 }
 .ourstatement .swiper-controller.swiper-controller-button-left {
   left: -20px;
@@ -2143,7 +2143,7 @@ select{
   width: 70px;
   height: 50px;
   text-align: center;
-  background-color:#b40700;
+  background-color:#4DBBE2;
   color: #fff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -2157,7 +2157,7 @@ select{
   position: absolute;
   border-style: solid;
   border-width: 0 10px 10px;
-  border-color: #b40700 transparent;
+  border-color: #4DBBE2 transparent;
   display: block;
   width: 0;
   z-index: 1;
@@ -2202,7 +2202,7 @@ select{
   cursor: pointer;
 }
 .testimonial .gallery-thumbs .swiper-slide.swiper-slide-active img {
-  border: 6px solid #b40700;
+  border: 6px solid #4DBBE2;
   width: 90px;
   height: 90px;
 }
@@ -2230,7 +2230,7 @@ select{
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  border: 3px solid #b40700;
+  border: 3px solid #4DBBE2;
   position: relative;
 }
 .testimonial-section.style2 .testimonial .testimonial-container .testimonial-content .author:after {
@@ -2240,7 +2240,7 @@ select{
   height: 34px;
   text-align: center;
   color: #fff;
-  background-color:#b40700;
+  background-color:#4DBBE2;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -2297,7 +2297,7 @@ select{
 }
 
 .join-us-section {
-  background-color: #b40700;
+  background-color: #4DBBE2;
   padding: 30px 0;
 }
 .join-us-section .join-us-content {
@@ -2326,7 +2326,7 @@ select{
   margin-top: 0;
 }
 .about-content h3 span {
-  color: #b40700;
+  color: #4DBBE2;
   font-weight: 700;
 }
 .about-content .about-mission .about-mission-tab {
@@ -2358,7 +2358,7 @@ select{
   bottom: -1px;
   height: 2px;
   width: 100%;
-  background-color: #b40700;
+  background-color: #4DBBE2;
 }
 
 .urgent-causes-section {
@@ -2370,7 +2370,7 @@ select{
 
 .urgent-cause-content .urgent-cause-cata {
   font-size: 18px;
-  background-color:#b40700;
+  background-color:#4DBBE2;
   color: #fff;
   padding: 3px 10px;
   margin-bottom: 15px;
@@ -2404,7 +2404,7 @@ select{
   margin-bottom: 15px;
 }
 .progress .progress-bar {
-  background-color: #b40700;
+  background-color: #4DBBE2;
   position: relative;
   overflow: visible;
   border-radius: 12px 0 0 12px;
@@ -2416,7 +2416,7 @@ select{
   width: 42px;
   height: 21px;
   line-height: 21px;
-  background-color: #b40700;
+  background-color: #4DBBE2;
   color: #fff;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -2427,7 +2427,7 @@ select{
   position: absolute;
   border-style: solid;
   border-width: 8px 8px 0px;
-  border-color:#b40700 transparent;
+  border-color:#4DBBE2 transparent;
   display: block;
   width: 0;
   z-index: 1;
@@ -2445,7 +2445,7 @@ select{
   font-size: 20px;
 }
 .achieve-goal .raise-goal span {
-  color: #b40700;
+  color:#4DBBE2;
 }
 
 .recent-causes-section .recent-cause-item {
@@ -2577,13 +2577,13 @@ select{
 .member .custom-btn {
   display: inline-block;
   margin-top: 50px;
-  background-color: #035833;
-  border-color: #035833;
+  background-color: #064484;
+  border-color: #064484;
   color: #fff;
   margin-bottom: -5px;
 }
 .member .custom-btn:hover {
-  background-color: #b40700;
+  background-color: #4DBBE2;
 }
 
 .latest-news-section .small-post-list {
@@ -2631,7 +2631,7 @@ select{
   display: block;
 }
 .latest-news-section .small-post-list .post-item .post-content > a:hover {
-  color: #b40700;
+  color: #4DBBE2;
 }
 .latest-news-section .small-post-list .post-item .post-content .post-meta li {
   color: #999;
@@ -2679,7 +2679,7 @@ select{
   color: #332929;
 }
 .volunteer-item .volunteer-content .name a:hover {
-  color: #b40700;
+  color: #4DBBE2;
 }
 .volunteer-item .volunteer-content .designation {
   margin-bottom: 10px;
@@ -2995,8 +2995,8 @@ select{
 }
 .product-info .custom-btn {
   display: inline-block;
-  background-color: #b40700;
-  border-color: #b40700;
+  background-color: #4DBBE2;
+  border-color: #4DBBE2;
   color: #fff;
   padding: 10px 40px;
 }
@@ -3121,7 +3121,7 @@ select{
 }
 
 .donate {
-  background-color: #b40700;
+  background-color: #4DBBE2;
   border: none !important;
   color: #fff;
   text-transform: uppercase;
@@ -3132,7 +3132,7 @@ select{
 }
 
 .section-overlay {
-  background-color: #035833;
+  background-color: #064484;
 }
 .section-overlay .section-heading h2, .section-overlay .section-heading h3, .section-overlay .section-heading h4, .section-overlay .section-heading h5, .section-overlay .section-heading h6, .section-overlay .section-heading p {
   color: #fff;
@@ -3275,7 +3275,7 @@ select{
   color: #332929;
 }
 .post-item .post-content .title > a:hover {
-  color: #b40700;
+  color: #4DBBE2;
 }
 
 .post-meta {
@@ -3322,13 +3322,13 @@ select{
   cursor: pointer;
 }
 .donation label:hover {
-  border-color: #b40700;
-  color: #b40700;
+  border-color: #4DBBE2;
+  color: #4DBBE2;
   background-color: transparent;
 }
 .donation label.select-amount {
-  border-color: #b40700;
-  color:#b40700;
+  border-color: #4DBBE2;
+  color:#4DBBE2;
 }
 @media (max-width: 767px) {
   .donation label {
@@ -3395,7 +3395,7 @@ select{
   color: #332929;
 }
 .campaign-list .campaign-item .campaign-content .campaign-title a:hover {
-  color: #b40700;
+  color: #4DBBE2;
 }
 .campaign-list .campaign-item .campaign-content .campaign-detail-list {
   padding-left: 0;
@@ -3453,7 +3453,7 @@ select{
   text-align: center;
 }
 .become-member form p input {
-  background-color: #b40700;
+  background-color: #4DBBE2;
   color: #fff;
   margin-top: 30px;
   margin-bottom: 0;
@@ -3514,7 +3514,7 @@ select{
 }
 .news-letter-content .news-letter-content-inner form p input {
   margin-bottom: 0;
-  background-color: #b40700;
+  background-color: #4DBBE2;
   border: none;
   color: #fff;
   padding: 13px 40px;
@@ -3606,7 +3606,7 @@ select{
   color: rgba(255, 255, 255, 0.6);
 }
 .tweet-list .tweet-item .tweet-content p a {
-  color: #b40700;
+  color: #4DBBE2;
 }
 
 .page-header {
@@ -3648,7 +3648,7 @@ select{
   color: #fff;
 }
 .breadcrumb li a:hover {
-  color: #b40700;
+  color: #4DBBE2;
 }
 .breadcrumb li:before {
   color: #fff;
@@ -3738,11 +3738,11 @@ select{
   transition: 0.3s;
 }
 .pagination-area .pagination li a:hover {
-  background-color:#b40700;
+  background-color:#4DBBE2;
   color: #fff;
 }
 .pagination-area .pagination li .active {
-  background-color:#b40700;
+  background-color:#4DBBE2;
   color: #fff;
 }
 @media (max-width: 640px) {
@@ -3814,7 +3814,7 @@ select{
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #035833;
+  background-color: #064484;
   opacity: 0;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -3859,7 +3859,7 @@ select{
   color: #332929;
 }
 .product-item .product-content .price {
-  color: #b40700;
+  color: #4DBBE2;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 0;
@@ -3961,7 +3961,7 @@ select{
   border-radius: 30px;
 }
 .neta-issue-item .issue-cata:hover > a {
-  background-color:#b40700;
+  background-color:#4DBBE2;
   color: #fff;
 }
 .neta-issue-item:after {
@@ -3973,16 +3973,16 @@ select{
   height: 100%;
 }
 .neta-issue-item.issue1:after {
-  background-color: #b40700;
+  background-color: #4DBBE2;
 }
 .neta-issue-item.issue2:after {
   background-color: rgba(142, 68, 173, 0.78);
 }
 .neta-issue-item.issue3:after {
-  background-color: #035833;
+  background-color: #064484;
 }
 .neta-issue-item.issue4:after {
-  background-color: #035833;
+  background-color: #064484;
 }
 .neta-issue-item.issue5:after {
   background-color: rgba(243, 156, 18, 0.78);
@@ -4018,7 +4018,7 @@ select{
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #035833;
+  background-color: #064484;
   opacity: 0;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -4076,7 +4076,7 @@ select{
 .comingsoon-section .section-overlay {
   position: relative;
   height: 100vh;
-  background-color: #035833;
+  background-color: #064484;
 }
 @media (max-width: 991px) {
   .comingsoon-section .section-overlay {
@@ -4120,7 +4120,7 @@ select{
 .comingsoon-section .comingsoon .newsletter-section .newsletter .submit {
   margin-top: -22px;
   padding: 14px 50px;
-  background-color: #b40700;
+  background-color: #4DBBE2;
 }
 
 .error-page-section {
@@ -4135,7 +4135,7 @@ select{
 .error-page-section .section-overlay {
   position: relative;
   height: 100vh;
-  background-color:#035833;
+  background-color:#064484;
 }
 @media (max-width: 991px) {
   .error-page-section .section-overlay {
@@ -4198,8 +4198,8 @@ select{
   margin-bottom: 30px;
 }
 .error-page-section .error-page .error-page-inner .error-search p a {
-  color: #b40700;
-  border-bottom: 2px solid #b40700;
+  color: #4DBBE2;
+  border-bottom: 2px solid #4DBBE2;
   font-weight: 600;
 }
 .error-page-section .error-page .error-page-inner .error-search form {
@@ -4233,7 +4233,7 @@ select{
   width: 100%;
 }
 .rating .rating-color i {
-  color: #b40700;
+  color: #4DBBE2;
 }
 
 @media (max-width: 400px) {
@@ -4283,7 +4283,7 @@ select{
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #035833;
+  background-color: #064484;
   opacity: 0;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -4359,7 +4359,7 @@ select{
 }
 .cart-plus-minus .qtybutton:hover {
   color: #fff;
-  background: #b40700 !important;
+  background:#4DBBE2 !important;
 }
 .cart-plus-minus .inc.qtybutton {
   border-left: 1px solid #e0e0e0;
@@ -4369,7 +4369,7 @@ select{
 }
 
 #loading {
-  background-color:#035833;
+  background-color:#064484;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -4514,8 +4514,8 @@ select{
   transition: 0.3s ease;
 }
 .custom-btn:hover {
-  background-color: #b40700;
-  border-color: #b40700;
+  background-color: #4DBBE2;
+  border-color: #4DBBE2;
   color: #fff;
   border-radius: 30px;
   overflow: hidden;
@@ -4533,8 +4533,8 @@ select{
   padding: 5px 20px;
 }
 .custom-btn-sm:hover {
-  background-color: #b40700;
-  border-color: #b40700;
+  background-color: #4DBBE2;
+  border-color:#4DBBE2;
 }
 
 .custom-btn-bg {
@@ -4542,7 +4542,7 @@ select{
   border-color: #fff;
 }
 .custom-btn-bg:hover {
-  background-color: #b40700;
+  background-color: #4DBBE2;
 }
 
 .banner {
@@ -4623,7 +4623,7 @@ select{
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #035833;
+  background-color:#064484;
 }
 .banner.banner-3 .banner-content .banner-content-text {
   max-width: 100%;
@@ -4647,7 +4647,7 @@ select{
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #035833;
+  background-color: #064484;
 }
 .banner.banner-4 .banner-content .banner-content-text {
   max-width: 100%;
@@ -4671,7 +4671,7 @@ select{
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #035833;
+  background-color: #064484;
 }
 .banner.banner-5 .banner-content .banner-content-text {
   max-width: 100%;
@@ -4700,7 +4700,7 @@ select{
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #035833;
+  background-color: #064484;
 }
 .banner.banner-6 .banner-content .banner-content-text {
   max-width: 100%;
@@ -4756,8 +4756,8 @@ select{
   color: #787d85;
 }
 .banner.banner-7 .banner-content .banner-content-text .custom-btn {
-  background-color: #b40700;
-  border-color:#b40700;
+  background-color: #4DBBE2;
+  border-color:#4DBBE2;
 }
 
 .banner-slider {
@@ -4805,7 +4805,7 @@ select{
   top: 50%;
   transform: translateY(-50%);
   background-color: #fff;
-  color: #b40700;
+  color: #4DBBE2;
   text-align: center;
   z-index: 1;
   font-size: 28px;
@@ -4866,7 +4866,7 @@ select{
 }
 .sidebar .widget.catagories ul li a:hover {
   padding-left: 20px;
-  color: #b40700;
+  color:#4DBBE2;
 }
 .sidebar .widget.catagories ul li:last-child a {
   border-bottom: none;
@@ -4891,7 +4891,7 @@ select{
   transition: 0.3s;
 }
 .sidebar .widget.popular-post .small-post-list > li a:hover {
-  color: #b40700;
+  color:#4DBBE2;
 }
 .sidebar .widget.popular-post .small-post-list > li .post-meta {
   padding-bottom: 0;
@@ -4928,7 +4928,7 @@ select{
   border-radius: 1px;
 }
 .sidebar .widget.tag .tag-list li a:hover {
-  background-color: #b40700;
+  background-color:#4DBBE2;
   color: #fff;
 }
 
@@ -4956,7 +4956,7 @@ select{
   margin-bottom: 20px;
 }
 .sidebar .price-range .nstSlider .bar {
-  background: #b40700;
+  background: #4DBBE2;
   height: 100%;
   top: 3px;
 }
@@ -5026,7 +5026,7 @@ select{
   color: #999;
 }
 .sidebar .popular-product .small-post-list .product-item .product-content .rating i {
-  color: #b40700;
+  color: #4DBBE2;
 }
 .sidebar .popular-product .small-post-list .product-item .product-content .rating i.color {
   color: #999;
@@ -5045,7 +5045,7 @@ select{
 
 .shop-cart > thead > tr {
   height: 65px;
-  background-color: #b40700;
+  background-color: #4DBBE2;
   border-top: 1px solid #ebebeb;
   border-left: 1px solid #ebebeb;
 }
@@ -5166,7 +5166,7 @@ select{
   color: #fff;
   padding: 12px 30px;
   border: none;
-  background-color: #b40700;
+  background-color: #4DBBE2;
   margin-left: 6px;
   margin-top: -2px;
   border-radius: 2px;
@@ -5185,7 +5185,7 @@ select{
   text-transform: uppercase;
   font-weight: 700;
   padding: 12px 25px;
-  background-color: #b40700;
+  background-color:#4DBBE2;
   border-color: #ff6f50;
   color: #fff;
   border: none;
@@ -5280,7 +5280,7 @@ select{
   font-size: 15px;
   font-weight: 700;
   padding: 10px 25px;
-  background-color: #b40700;
+  background-color:#4DBBE2;
   border: none;
   color: #fff;
   margin-top: 20px;
@@ -5324,8 +5324,8 @@ select{
 }
 
 .cart-total-2 .custom-btn {
-  background-color: #b40700;
-  border-color: #b40700;
+  background-color: #4DBBE2;
+  border-color: #4DBBE2;
   color: #fff;
 }
 
