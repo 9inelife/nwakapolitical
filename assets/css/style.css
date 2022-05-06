@@ -905,7 +905,7 @@ blockquote:after,
 }
 
 .election-campaign-section {
-  background-image: url(../../assets/images/homepage1/campaign/bg.jpg);
+  background-image: url(../../assets/images/homepage1/campaign/counter.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -925,7 +925,7 @@ blockquote:after,
 }
 
 .quick-donation-section {
-  background-image: url(../../assets/images/homepage1/campaign/bg.jpg);
+  background-image: url(../../assets/images/homepage1/campaign/make.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4564,7 +4564,7 @@ blockquote:after,
 }
 .banner.banner-1 {
   height: 100vh;
-  background-image: url(../../assets/images/homepage1/banner/Herro.jpg);
+  background-image: url(../../assets/images/homepage1/banner/01.jpg);
 }
 @media (max-width: 1370px) {
   .banner.banner-1 {
